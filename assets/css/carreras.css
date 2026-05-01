@@ -1,0 +1,50 @@
+:root {
+  /* === COLORES PRINCIPALES === */
+
+  /* Azul institucional (logo / textos importantes) */
+    --color-primary: #2F3E4E;
+
+    /* Verde institucional (acento principal) */
+    --color-secondary: #00A859;
+
+    /* Verde claro (detalles / hover / decoraciones) */
+    --color-accent: #6CC24A;
+
+    /* Turquesa (barra superior / info) */
+    --color-info: #168A8A;
+
+
+    /* === COLORES NEUTROS === */
+
+    /* Fondo principal */
+    --color-bg: #FFFFFF;
+
+    /* Fondo secciones */
+    --color-bg-light: #F5F5F5;
+
+    /* Bordes / separadores */
+    --color-border: #D1D1D1;
+
+    /* Texto principal */
+    --color-text: #444444;
+
+    /* Texto secundario */
+    --color-text-light: #777777;
+
+
+    /* === TIPOGRAFÍA === */
+
+    --font-title: 'Montserrat', sans-serif;
+    --font-text: 'Open Sans', sans-serif;
+
+
+    /* === SOMBRAS === */
+
+    --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+
+    /* === TRANSICIONES === */
+
+    --transition: all 0.3s ease;
+}

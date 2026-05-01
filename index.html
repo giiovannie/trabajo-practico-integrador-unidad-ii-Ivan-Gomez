@@ -14,10 +14,11 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" /> <!-- estilos generales-->
+    <link rel="stylesheet" href="/assets/css/index.css"> <!-- estilos propios-->
     <title>IPF</title>
   </head>
-  <body>
+  <body class="w-100 min-vh-100">
     <!--================== header desarrollo ================-->
     <header class="header">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -42,7 +43,7 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="/index.html"
+                  href="index.html"
                   >Inicio</a
                 >
               </li>
@@ -55,12 +56,12 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="carreras.html"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -69,23 +70,23 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/carreras.html"
+                    <a class="dropdown-item" href="#"
                       >Tecnicatura Superior de Desarrollo de Software
                       Multiplataforma</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/institucional.html"
+                    <a class="dropdown-item" href="#"
                       >Tecnicatura Superior en quimica industrial
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/contacto.html"
+                    <a class="dropdown-item" href="#"
                       >Tecnicatura Superior en Mecatronica</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/contacto.html"
+                    <a class="dropdown-item" href="#"
                       >Tecnicatura Superior en Telecomunicaciones</a
                     >
                   </li>
@@ -101,7 +102,48 @@
     <main class="main"></main>
 
     <!--================== header desarrollo ================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer-container d-flex justify-content-between flex-wrap gap-4">
+        <!-- Columna 1 -->
+
+        <div class="footer-col">
+            <img src="/assets/img/logo_institucional.png" alt="logo ipf">
+        </div>
+
+        <div class="footer-col">
+          <h3>Instituto Politécnico Formosa</h3>
+          <p>
+            Formación técnica de calidad orientada al desarrollo profesional en
+            el área tecnológica.
+          </p>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="footer-col">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Institucional</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>Ruta Nac. 81 km 1190 | Formosa</p>
+          <p>Email: info@ipf.edu.ar</p>
+          <p>WhatsApp: 3704060530</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © 2026 Instituto Politécnico Formosa - Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
