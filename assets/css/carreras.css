@@ -85,3 +85,30 @@
 .card-text{
   color: var(--color-primary)!important;
 }
+
+.btn{
+  background-color: var(--color-info);
+  color: var(--color-bg-light);
+}
+
+.btn:hover{
+  background-color: var(--color-primary);
+  color: var(--color-info);
+}
+
+/*materias*/
+
+.contenedor-materias{
+  background-color: var(--color-info);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* blanco a negro */
+}
+
+/*requisitos*/
+
+.card-inf h2{
+  color: var(--color-primary);
+}

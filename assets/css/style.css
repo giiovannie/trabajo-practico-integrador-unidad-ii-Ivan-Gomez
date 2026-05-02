@@ -59,6 +59,7 @@
 body{
   background-color: var(--color-bg);
   min-height: 100dvh;
+  scroll-behavior: smooth;
 }
 
 /*estilos del header*/
