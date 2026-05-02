@@ -65,6 +65,9 @@ body{
 
 .header{
   background-color: var(--color-bg) !important;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar{
