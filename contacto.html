@@ -75,6 +75,7 @@
 
     <!--================== main desarrollo ================-->
     <main class="main">
+          <!--================== tarjeta de entrada ================-->
       <section class="tarjeta-inf py-5 text-center">
         <div class="container rounded-2 p-4 d-flex flex-column flex-wrap">
           <i class="bi bi-chat-dots-fill fs-1 mb-3"></i>
@@ -85,6 +86,8 @@
           </p>
         </div>
       </section>
+
+          <!--================== form desarrollo ================-->
       <section>
         <h2>Formulario</h2>
         <div class="cont-form p-4 ma">
@@ -138,6 +141,8 @@
                 placeholder="Formosa"
               />
             </div>
+
+            <!-- select 1  -->
             <div class="col-md-3">
               <label for="validationDefault04" class="form-label"
                 >Departamento</label
@@ -157,6 +162,8 @@
                 <option value="ramon-lista">Ramón Lista</option>
               </select>
             </div>
+
+            <!-- select 2 -->
             <div class="col-md-3">
               <label for="carrera" class="form-label">Carrera</label>
               <select class="form-select" required name="carrera" id="carrera">
@@ -185,6 +192,8 @@
         </div>
       </section>
 
+
+          <!--================== Ubicacion section ================-->
       <section class="ubicacion py-5">
         <div class="container p-4 rounded-1">
           <div class="card-inf mb-4">
@@ -207,44 +216,57 @@
         </div>
       </section>
 
+
+          <!--================== section horarios ================-->
       <section class="horario py-4">
-  <div class="container">
-    <div class="card-inf mb-4">
-      <h2>Horarios de Atención</h2>
-    </div>
-    <div class="card">
-      <div class="card-body">
+        <div class="container">
+          <div class="card-inf mb-4">
+            <h2>Horarios de Atención</h2>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <i
+                  class="bi bi-clock-fill fs-4"
+                  style="color: var(--color-secondary)"
+                ></i>
+                <div>
+                  <h6 class="mb-1">Lunes a Viernes</h6>
+                  <p class="text-muted mb-0">08:30 hs — 22:00 hs</p>
+                </div>
+              </div>
 
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <i class="bi bi-clock-fill fs-4" style="color: var(--color-secondary);"></i>
-          <div>
-            <h6 class="mb-1">Lunes a Viernes</h6>
-            <p class="text-muted mb-0">08:30 hs — 22:00 hs</p>
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <i
+                  class="bi bi-envelope-fill fs-4"
+                  style="color: var(--color-secondary)"
+                ></i>
+                <div>
+                  <h6 class="mb-1">Correo electrónico</h6>
+                  <p class="text-muted mb-0">
+                    <a href="mailto:ipfingreso@gmail.com"
+                      >ipfingreso@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-3">
+                <i
+                  class="bi bi-geo-alt-fill fs-4"
+                  style="color: var(--color-secondary)"
+                ></i>
+                <div>
+                  <h6 class="mb-1">Dirección</h6>
+                  <p class="text-muted mb-0">
+                    Ruta Nacional N° 81, km 1190 — Formosa, Argentina
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <i class="bi bi-envelope-fill fs-4" style="color: var(--color-secondary);"></i>
-          <div>
-            <h6 class="mb-1">Correo electrónico</h6>
-            <p class="text-muted mb-0">
-              <a href="mailto:ipfingreso@gmail.com">ipfingreso@gmail.com</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="d-flex align-items-start gap-3">
-          <i class="bi bi-geo-alt-fill fs-4" style="color: var(--color-secondary);"></i>
-          <div>
-            <h6 class="mb-1">Dirección</h6>
-            <p class="text-muted mb-0">Ruta Nacional N° 81, km 1190 — Formosa, Argentina</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
     </main>
 
     <!--================== footer desarrollo ================-->
