@@ -31,7 +31,7 @@
     /* Texto secundario */
     --color-text-light: #777777;
 
-
+    --color-complementary: #fbedd4;
     /* === TIPOGRAFÍA === */
 
     --font-title: 'Montserrat', sans-serif;
@@ -47,4 +47,41 @@
     /* === TRANSICIONES === */
 
     --transition: all 0.3s ease;
+}
+
+/*bienvenida */
+
+.bienvenida-carreras{
+  background: linear-gradient(var(--color-info)30%, var(--color-primary)80%);
+}
+
+.container h2{
+  color: var(--color-bg-light);
+  font-size: var(--font-title);
+  font-size: 3rem;
+}
+
+.container p{
+  color: var(--color-bg-light);
+  font-size: 1.2rem;
+}
+
+
+/*pre-inscripciones */
+
+
+.card-header{
+  background-color: var(--color-info);
+  color: var(--color-primary);
+}
+
+.card-body{
+  background-color: var(--color-border);
+}
+
+.card-body img{
+  border-radius: 5px;
+}
+.card-text{
+  color: var(--color-primary)!important;
 }

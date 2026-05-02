@@ -14,8 +14,10 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/style.css"> <!-- estilos generales -->
-    <link rel="stylesheet" href="/assets/css/carreras.css" /> <!-- estilos propios-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- estilos generales -->
+    <link rel="stylesheet" href="/assets/css/carreras.css" />
+    <!-- estilos propios-->
     <title>IPF</title>
   </head>
   <body>
@@ -56,41 +58,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Carreras
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Tecnicatura Superior de Desarrollo de Software
-                      Multiplataforma</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Tecnicatura Superior en quimica industrial
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Tecnicatura Superior en Mecatronica</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Tecnicatura Superior en Telecomunicaciones</a
-                    >
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="carreras.html">Carreras</a>
               </li>
             </ul>
           </div>
@@ -99,12 +70,129 @@
     </header>
 
     <!--================== header desarrollo ================-->
-    <main class="main"></main>
+    <main class="main">
+      <section class="bienvenida-carreras py-5 w-100">
+        <div class="container text-center w-100">
+          <h2>Elegí tu camino</h2>
+          <p class="lead mt-3">
+            Cada carrera es una puerta hacia el futuro que querés construir. En
+            el IPF te formamos con herramientas reales, docentes con experiencia
+            en la industria y un entorno pensado para que crezcas.
+          </p>
+          <p class="mt-2">
+            Explorá nuestra oferta académica y encontrá la tecnicatura que se
+            adapta a tus intereses, tu vocación y el profesional que querés ser.
+            El primer paso hacia tu futuro empieza acá.
+          </p>
+        </div>
+      </section>
+
+<section class="tarjetas-inscripcion py-5">
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+
+      <!-- Card 1 - Software -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-header">
+            <h5>Tecnicatura Superior en Desarrollo de Software Multiplataforma</h5>
+          </div>
+          <div class="card-body">
+            <div class="cont-img-card">
+              <img src="/assets/img/tarjeta4-softaware.PNG" class="w-100" alt="Imagen carrera Software">
+            </div>
+            <p class="card-text mt-3">
+              Formamos desarrolladores capaces de diseñar y construir aplicaciones
+              para múltiples plataformas. Una carrera orientada al mercado tecnológico
+              con alta demanda laboral.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn w-100">Pre-Inscripción</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 - Mecatrónica -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-header">
+            <h5>Tecnicatura Superior en Mecatrónica</h5>
+          </div>
+          <div class="card-body">
+            <div class="cont-img-card">
+              <img src="/assets/img/tarjeta2-mecatronica.PNG" class="w-100" alt="Imagen carrera Mecatrónica">
+            </div>
+            <p class="card-text mt-3">
+              Integrá electrónica, mecánica e informática en una sola carrera.
+              Diseñá y supervisá sistemas de automatización industrial con un
+              enfoque multidisciplinario e innovador.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn w-100">Pre-Inscripción</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 - Química -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-header">
+            <h5>Tecnicatura Superior en Química Industrial</h5>
+          </div>
+          <div class="card-body">
+            <div class="cont-img-card">
+              <img src="/assets/img/tarjeta3-quimica.PNG" class="w-100" alt="Imagen carrera Química Industrial">
+            </div>
+            <p class="card-text mt-3">
+              Aplicá procesos químicos en la industria con un perfil técnico
+              sólido. Trabajá en laboratorios, plantas industriales y sectores
+              productivos de alta tecnología.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn w-100">Pre-Inscripción</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 - Telecomunicaciones -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-header">
+            <h5>Tecnicatura Superior en Telecomunicaciones</h5>
+          </div>
+          <div class="card-body">
+            <div class="cont-img-card">
+              <img src="/assets/img/tarjeta1-teleco.PNG" class="w-100" alt="Imagen carrera Telecomunicaciones">
+            </div>
+            <p class="card-text mt-3">
+              Desarrollá competencias en redes, señales y sistemas de comunicación.
+              Una carrera con salida laboral en telecomunicaciones, infraestructura
+              digital y conectividad.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn w-100">Pre-Inscripción</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    </main>
 
     <!--================== header desarrollo ================-->
     <footer class="footer">
-      <div class="footer-container d-flex justify-content-between flex-wrap gap-4">
+      <div
+        class="footer-container d-flex justify-content-between flex-wrap gap-4"
+      >
         <!-- Columna 1 -->
+        <div class="footer-col">
+          <img src="/assets/img/logo_institucional.png" alt="logo ipf" />
+        </div>
         <div class="footer-col">
           <h3>Instituto Politécnico Formosa</h3>
           <p>
