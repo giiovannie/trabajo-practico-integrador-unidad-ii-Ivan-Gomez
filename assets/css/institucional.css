@@ -53,6 +53,7 @@
 
 .historia{
   min-height: 100dvh;
+  background: url(/assets/img/fondo-complementario.png) no-repeat center/cover;
 }
 
 .card{
@@ -66,4 +67,12 @@
   transform: scale(1.07);
   border-color: #168A8A;
   color: var(--color-info);
+}
+
+.card-inf h2{
+  color: var(--color-bg);
+}
+
+.autoridades{
+  background: url(/assets/img/fondo-complementario2.png) no-repeat center/cover;
 }
