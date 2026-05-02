@@ -107,3 +107,29 @@
   color: var(--color-primary);
   font-family: var(--font-title);
 }
+
+/*informcion destacada*/
+
+.cont-cards .card{
+  min-height: 300px;
+  border-color: var(--color-primary);
+  padding: 0;
+}
+
+.card-header{
+  width: 100%;
+  background-color: var(--color-secondary);
+}
+
+.card-body{
+  padding: 18px;
+}
+
+.btn-card-inf{
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  background-color: var(--color-info);
+  padding: 8px;
+  border-radius: 8px;
+}
