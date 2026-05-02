@@ -13,7 +13,7 @@
     /* Turquesa (barra superior / info) */
     --color-info: #168A8A;
 
-
+    --color-complementary: #fbedd4;
     /* === COLORES NEUTROS === */
 
     /* Fondo principal */
@@ -47,4 +47,23 @@
     /* === TRANSICIONES === */
 
     --transition: all 0.3s ease;
+}
+
+/*historia section*/
+
+.historia{
+  min-height: 100dvh;
+}
+
+.card{
+  transition: var(--transition);
+  background-color: var(--color-border) !important;
+  color: var(--color-primary);
+  border-left: 7px solid var(--color-info);
+}
+
+.card:hover{
+  transform: scale(1.07);
+  border-color: #168A8A;
+  color: var(--color-info);
 }
