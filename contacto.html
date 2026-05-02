@@ -14,8 +14,14 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/style.css" /> <!-- estilos generales  -->
-    <link rel="stylesheet" href="/assets/css/contacto.css"> <!--estilos propios -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- estilos generales  -->
+    <link rel="stylesheet" href="/assets/css/contacto.css" />
+    <!--estilos propios -->
     <title>IPF</title>
   </head>
   <body>
@@ -67,12 +73,185 @@
       </nav>
     </header>
 
-    <!--================== header desarrollo ================-->
-    <main class="main"></main>
+    <!--================== main desarrollo ================-->
+    <main class="main">
+      <section class="tarjeta-inf py-5 text-center">
+        <div class="container rounded-2 p-4 d-flex flex-column flex-wrap">
+          <i class="bi bi-chat-dots-fill fs-1 mb-3"></i>
+          <h2 class="fw-bold">¿TENÉS CONSULTAS?</h2>
+          <p class="lead mt-2">
+            Desde acá podés hacernos llegar todas tus dudas. El formulario está
+            disponible para cualquier persona.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Formulario</h2>
+        <div class="cont-form p-4 ma">
+          <form class="row g-3 p-3 rounded">
+            <div class="col-md-6">
+              <label for="validationDefault01" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault01"
+                required
+                placeholder="John"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault02" class="form-label"
+                >Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                required
+                placeholder="Doe"
+              />
+            </div>
+            <div class="col-md-12">
+              <label for="validationDefaultUsername" class="form-label"
+                >Email</label
+              >
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="validationDefaultUsername"
+                  aria-describedby="inputGroupPrepend2"
+                  placeholder="JohnDoe123@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label"
+                >localidad</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault03"
+                required
+                placeholder="Formosa"
+              />
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label"
+                >Departamento</label
+              >
+              <select class="form-select" id="validationDefault04" required>
+                <option value="" disabled selected>
+                  Seleccioná tu departamento
+                </option>
+                <option value="bermejo">Bermejo</option>
+                <option value="formosa">Formosa</option>
+                <option value="laishi">Laishí</option>
+                <option value="matacos">Matacos</option>
+                <option value="patino">Patiño</option>
+                <option value="pilagas">Pilagás</option>
+                <option value="pilcomayo">Pilcomayo</option>
+                <option value="pirane">Pirané</option>
+                <option value="ramon-lista">Ramón Lista</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="carrera" class="form-label">Carrera</label>
+              <select class="form-select" required name="carrera" id="carrera">
+                <option value="" disabled selected>
+                  Seleccioná una carrera
+                </option>
+                <option value="software">
+                  Tecnicatura Superior en Desarrollo de Software Multiplataforma
+                </option>
+                <option value="mecatronica">
+                  Tecnicatura Superior en Mecatrónica
+                </option>
+                <option value="quimica">
+                  Tecnicatura Superior en Química Industrial
+                </option>
+                <option value="telecomunicaciones">
+                  Tecnicatura Superior en Telecomunicaciones
+                </option>
+                <option value="ninguna">Ninguna</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
 
-    <!--================== header desarrollo ================-->
+      <section class="ubicacion py-5">
+        <div class="container p-4 rounded-1">
+          <div class="card-inf mb-4">
+            <h2>¿Dónde estamos?</h2>
+            <p class="text-muted">
+              Ruta Nacional N° 81, km 1190 — Formosa, Argentina
+            </p>
+          </div>
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6026.726320080696!2d-58.27192809449038!3d-26.082170622941696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945cb1005b21b355%3A0x36a052477a923c03!2sInstituto%20Polit%C3%A9cnico%20Formosa!5e0!3m2!1ses-419!2sar!4v1777728673954!5m2!1ses-419!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="horario py-4">
+  <div class="container">
+    <div class="card-inf mb-4">
+      <h2>Horarios de Atención</h2>
+    </div>
+    <div class="card">
+      <div class="card-body">
+
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <i class="bi bi-clock-fill fs-4" style="color: var(--color-secondary);"></i>
+          <div>
+            <h6 class="mb-1">Lunes a Viernes</h6>
+            <p class="text-muted mb-0">08:30 hs — 22:00 hs</p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <i class="bi bi-envelope-fill fs-4" style="color: var(--color-secondary);"></i>
+          <div>
+            <h6 class="mb-1">Correo electrónico</h6>
+            <p class="text-muted mb-0">
+              <a href="mailto:ipfingreso@gmail.com">ipfingreso@gmail.com</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-start gap-3">
+          <i class="bi bi-geo-alt-fill fs-4" style="color: var(--color-secondary);"></i>
+          <div>
+            <h6 class="mb-1">Dirección</h6>
+            <p class="text-muted mb-0">Ruta Nacional N° 81, km 1190 — Formosa, Argentina</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <!--================== footer desarrollo ================-->
     <footer class="footer">
-      <div class="footer-container d-flex justify-content-between flex-wrap gap-4">
+      <div
+        class="footer-container d-flex justify-content-between flex-wrap gap-4"
+      >
         <!-- Columna 1 -->
         <div class="footer-col">
           <img src="/assets/img/logo_institucional.png" alt="logo ipf" />
